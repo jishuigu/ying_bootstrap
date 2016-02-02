@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>contact sheet</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap theme -->
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="theme.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <button type="button" class="btn btn-link btn-lg aligh-left" onClick="window.location='details.html';">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Teenage Cancer Trust</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="handbook.html">Handbook <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Finding Out</a></li>
+                                <li><a href="#">Med Stuff</a></li>
+                                <li><a href="#">Heart Stuff</a></li>
+                                <li><a href="#">Life Stuff</a></li>
+                                <li><a href="#">Beyond Cancer</a></li>
+                                <li><a href="#">Emergency Summary</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="details.html">My details<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="personaldetails.html">Personal Details</a></li>
+                                <li><a href="contactsheet.html">Contact Sheet</a></li>
+                                <li><a href="treatmentplan.html">Treatment Plan</a></li>
+                                <li><a href="information.html">Information</a></li>
+                                <li><a href="#">Emergency Contacts</a></li>
+                                <li><a href="#">Emergency Summary</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="container-fluid">
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <label class="control-label col-xs-2" for="mon_fri">Mon-Fri</label>
+                    <div class="col-xs-10">
+                        <input type="mon_fri" class="form-control" id="mon_fri">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-2" for="weekends">Weekends:</label>
+                    <div class="col-xs-10">
+                        <input type="weekends" class="form-control" id="weekends">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-2" for="telephone">Telephone:</label>
+                    <div class="col-xs-10">
+                        <input type="telephone" class="form-control" id="telephone">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-2" for="emergency_number">Emergency Number:</label>
+                    <div class="col-xs-10">
+                        <input type="emergency_number" class="form-control" id="emergency_number">
+                    </div>
+            </div>
+            <p>Your Keyworker is:</p>
+            <div class="form-group">
+                <label class="control-label col-xs-1" for="name">Name</label>
+                    <div class="col-xs-3">
+                        <input type="name" class="form-control" id="name">
+                    </div>
+            
+                <label class="control-label col-xs-1" for="role">role</label>
+                    <div class="col-xs-3">
+                        <input type="role" class="form-control" id="role">
+                    </div>
+            
+                <label class="control-label col-xs-1" for="t">T</label>
+                    <div class="col-xs-3">
+                        <input type="t" class="form-control" id="t">
+                    </div>
+            </div>
+            <p> Community Team Contact Numbers:</p>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="family_doctor">Family Doctor T:</label>
+                    <div class="col-sm-10">
+                        <input type="family_doctor" class="form-control" id="family_doctor">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="district_nurse">District Nurse T:</label>
+                    <div class="col-sm-10">
+                        <input type="district_nurse" class="form-control" id="district_nurse">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="clinical_nurse_specialist">Clinical Nurse Specialist (CNS) T:</label>
+                    <div class="col-sm-10">
+                        <input type="clinical_nurse_specialist" class="form-control" id="clincial_nurse_specialist">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="research_clinical_trials_nurse">Research/Clinical Trails Nurse T:</label>
+                    <div class="col-sm-10">
+                        <input type="research_clinical_trials_nurse" class="form-control" id="research_clinical_trials_nurse">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="palliative_care_team">Palliative Care Team/CNS T:</label>
+                    <div class="col-sm-10">
+                        <input type="palliative_care_team" class="form-control" id="palliative_care_team">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="counsellor_psychologist">Counsellor/Psychologis T:</label>
+                    <div class="col-sm-10">
+                        <input type="counsellor_psychologist" class="form-control" id="counsellor_psychologist">
+                    </div>
+            </div>
+             <div><button type="button" class="btn btn-default btn-sm pull-right">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add one
+        </button></div>
+        <div><button type="submit" class="btn btn-default">Submit</button></div>
+        <div class="center-block" style="max-width:400px">
+                <button type="button" class="btn btn-block btn-primary" onClick="">Shared Care Hospital Details</button>
+        <button type="button" class="btn btn-block btn-primary" onClick="">Private Health Care Hospital Details</button>
+</div>
+    </div>
+  </body>
+</html>
